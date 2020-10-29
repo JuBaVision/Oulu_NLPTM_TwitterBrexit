@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.09.2 (MiKTeX 2.9.6960 64-bit)  (format=lualatex 2019.3.7)  19 OCT 2020 11:18
+This is LuaTeX, Version 1.09.2 (MiKTeX 2.9.6960 64-bit)  (format=lualatex 2019.3.7)  29 OCT 2020 17:29
  restricted system commands enabled.
 **NLPTM_project24_report.tex
 (./NLPTM_project24_report.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.690 seconds
+luaotfload | main : initialization completed in 1.488 seconds
 (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -417,21 +417,25 @@ Package grfext Info: Graphics extension search list:
 ,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 57.
-
 
 LaTeX Font Warning: Font shape `TU/ptm/m/sc' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 69.
+(Font)              using `TU/ptm/m/n' instead on input line 47.
+
+LaTeX Font Info:    Try loading font information for TU+pcr on input line 105.
+LaTeX Font Info:    No file TUpcr.fd. on input line 105.
+
+LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 105.
 
 [1
 Non-PDF special ignored!{C:/Users/Julian/AppData/Local/MiKTeX/2.9/pdftex/config/
@@ -439,20 +443,18 @@ pdftex.map}
 
 
 ]
-LaTeX Font Info:    Try loading font information for TU+pcr on input line 127.
-LaTeX Font Info:    No file TUpcr.fd. on input line 127.
+<figures/cooccurentadjectives.jpeg, id=15, 1084.05pt x 701.62125pt>
+File: figures/cooccurentadjectives.jpeg Graphic file (type jpg)
+<use figures/cooccurentadjectives.jpeg>
+Package luatex.def Info: figures/cooccurentadjectives.jpeg  used on input line 2
+10.
+(luatex.def)             Requested size: 258.0pt x 166.97935pt.
 
-
-LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 127.
+Overfull \hbox (6.0pt too wide) in paragraph at lines 210--211
+[][] 
+ []
 
 [2]
-<fig1.png, id=19, 82.1469pt x 71.5473pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package luatex.def Info: fig1.png  used on input line 232.
-(luatex.def)             Requested size: 82.14668pt x 71.5471pt.
-
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -464,34 +466,34 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3<./fig1.png>] (./NLPTM_project24_report.aux)
+[3<./figures/cooccurentadjectives.jpeg>] (./NLPTM_project24_report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 4540 strings out of 494300
+ 4489 strings out of 494300
  100000,154059 words of node,token memory allocated
  495 words of node memory still in use:
    5 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 2 glyph, 10 attribute, 50 glue_spec
 , 10 attribute_list, 1 write nodes
-   avail lists: 2:730,3:115,4:43,5:363,6:30,7:6491,8:6,9:395,10:19,11:439
- 8492 multiletter control sequences out of 65536+200000
- 80 fonts using 5537103 bytes
- 41i,11n,35p,577b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/program files/miktex 2.9/fonts/opentype/public/lm/lmroman7-regular.otf><c:/p
-rogram files/miktex 2.9/fonts/opentype/public/lm/lmroman9-regular.otf><c:/progra
-m files/miktex 2.9/fonts/opentype/public/lm/lmroman10-regular.otf><c:/program fi
-les/miktex 2.9/fonts/opentype/public/lm/lmroman12-regular.otf><c:/program files/
-miktex 2.9/fonts/opentype/public/lm/lmroman8-regular.otf><c:/program files/mikte
-x 2.9/fonts/opentype/public/lm/lmroman6-regular.otf><c:/program files/miktex 2.9
+   avail lists: 2:492,3:130,4:46,5:347,6:31,7:6908,8:6,9:270,10:19,11:472
+ 8468 multiletter control sequences out of 65536+200000
+ 61 fonts using 4285287 bytes
+ 41i,11n,35p,577b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/program files/miktex 2.9/fonts/opentype/public/lm/lmroman8-regular.otf><c:/p
+rogram files/miktex 2.9/fonts/opentype/public/lm/lmroman7-regular.otf><c:/progra
+m files/miktex 2.9/fonts/opentype/public/lm/lmroman6-regular.otf><c:/program fil
+es/miktex 2.9/fonts/opentype/public/lm/lmroman9-regular.otf><c:/program files/mi
+ktex 2.9/fonts/opentype/public/lm/lmroman10-regular.otf><c:/program files/miktex
+ 2.9/fonts/opentype/public/lm/lmroman12-regular.otf><c:/program files/miktex 2.9
 /fonts/opentype/public/lm/lmroman17-regular.otf><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on NLPTM_project24_report.pdf (3 pages, 96797 bytes).
+Output written on NLPTM_project24_report.pdf (3 pages, 133116 bytes).
 
 PDF statistics: 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
